@@ -8,6 +8,7 @@
 #include "Extraction.h"
 class StudentExtraction :
 	public Extraction {
+	
 public:
 	bool stepExtractEyes(const IntensityImage &image, FeatureMap &features) const;
 	bool stepExtractNose(const IntensityImage &image, FeatureMap &features) const;
